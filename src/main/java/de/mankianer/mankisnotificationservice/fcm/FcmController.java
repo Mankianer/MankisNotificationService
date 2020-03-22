@@ -1,6 +1,6 @@
-package de.mankianer.mankisnotificationservice;
+package de.mankianer.mankisnotificationservice.fcm;
 
-import de.mankianer.mankisnotificationservice.config.FcmSettings;
+import de.mankianer.mankisnotificationservice.fcm.config.FcmSettings;
 import java.util.concurrent.ExecutionException;
 import javax.annotation.PostConstruct;
 import lombok.extern.log4j.Log4j2;

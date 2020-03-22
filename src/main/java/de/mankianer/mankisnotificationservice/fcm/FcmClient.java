@@ -1,4 +1,4 @@
-package de.mankianer.mankisnotificationservice;
+package de.mankianer.mankisnotificationservice.fcm;
 
 import com.google.auth.oauth2.GoogleCredentials;
 import com.google.firebase.FirebaseApp;
@@ -8,14 +8,13 @@ import com.google.firebase.messaging.Message;
 import com.google.firebase.messaging.TopicManagementResponse;
 import com.google.firebase.messaging.WebpushConfig;
 import com.google.firebase.messaging.WebpushNotification;
-import de.mankianer.mankisnotificationservice.config.FcmSettings;
+import de.mankianer.mankisnotificationservice.fcm.config.FcmSettings;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Collections;
-import java.util.Map;
 import java.util.concurrent.ExecutionException;
 import lombok.extern.log4j.Log4j2;
 

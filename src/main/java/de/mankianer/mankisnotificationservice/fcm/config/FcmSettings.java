@@ -1,4 +1,4 @@
-package de.mankianer.mankisnotificationservice.config;
+package de.mankianer.mankisnotificationservice.fcm.config;
 
 
 import lombok.Data;
